@@ -1,0 +1,140 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F4F2DE;
+}
+
+.navbar {
+    background-color: #7C9D96;
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#logo-img {
+
+    height: 100px;
+    width: 160px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar li a {
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color:#BA704F;
+    color: black;
+    text-decoration: underline;
+    border-radius:50%;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px; 
+  }
+  
+  .first-book-row, .second-book-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px; 
+  }
+  
+  .book:last-child {
+    margin-right: 0; 
+  }
+  
+  .book img {
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .book img:hover {
+    transform: scale(1.2);
+  }
+  
+  .book-info {
+    margin-top: 8px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    width: 200px;
+    font-size: large;
+  }
+
+  .book-author {
+    font-weight: bold;
+  }
+
+  #soon_paragraph {
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    top: 60px;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  .footer {
+    position: relative;
+    top:100px;
+    left: 0;
+    right: 0;
+    background-color: #A1CCD1;
+    text-align: center;
+}
+
+.footer p, .footer-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+ 
+  
+  

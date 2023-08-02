@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book website</title>
+
+    <link rel="icon" type="image/x-icon" href="../icons/bookicon.png">
+
+    <link rel="stylesheet" href="../CSS/home.css">
+    
+</head>
+<body>
+
+<div class="navbar">
+    <a href="home.html">
+<img id="logo-img" src="../images/bookverse-logo.png" alt="Logo"/>
+    </a>
+<ul>
+    <li><a href="books.html">Books</a></li>
+    <li><a href="authors.html">Authors</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+</ul>
+</div>
+
+<div class="mid-section ">
+
+    <p>Hey buddy, I show you the most read books of the week: </p>
+
+    <div class="image-container">
+<img class="slide-image active" src="../images/Books/book8.jpg">
+<img class="slide-image" src="../images/Books/book6.jpg">
+<img class="slide-image" src="../images/Books/book5.jpg">
+    </div>
+
+<div class="dots-container">
+    <div class="dot active" onclick="showSlide(0)"></div>
+    <div class="dot" onclick="showSlide(1)"></div>
+    <div class="dot" onclick="showSlide(2)"></div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <p>&copy; 2023 BookVerse Website. All rights reserved.</p>
+        
+        <ul class="footer-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+</div>
+
+<script src="../JS/home.js"></script>
+
+</body>
+</html>

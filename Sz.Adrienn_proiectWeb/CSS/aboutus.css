@@ -1,0 +1,130 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #7C9D96;
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#logo-img {
+
+    height: 100px;
+    width: 160px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar li a {
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color:#BA704F;
+    color: black;
+    text-decoration: underline;
+    border-radius:50%;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.about-section {
+    position: relative;
+    background-color: #F4F2DE;
+    padding: 70px 30px;
+    top:60px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about-section h1 {
+    text-align: center;
+}
+
+.team-section {
+    position: relative;
+    top: 60px;
+    background-color: #D1C9BB;
+    padding: 40px 0;
+}
+
+.team-section h2 {
+    text-align: center;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.contact-section {
+    background-color: #F4F2DE;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    background-color: #A1CCD1;
+    text-align: center;
+}
+
+.footer p, .footer-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+ 
